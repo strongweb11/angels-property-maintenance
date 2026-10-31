@@ -11,3 +11,22 @@
 
 /* Readable expanded brand descriptor on desktop and mobile. */
 .brand-type small,.footer-brand .brand-type small{font-size:11px;line-height:1.45;letter-spacing:1px;margin-top:7px;font-weight:750}@media(max-width:800px){.brand-type small,.footer-brand .brand-type small{font-size:10px;letter-spacing:.6px;margin-top:5px}}
+
+/* Restoration identity and readable direct contact. */
+.hero-slogan{font-size:clamp(19px,2.1vw,28px);font-weight:650;line-height:1.4;color:#e6dcc8;margin:0 0 15px;letter-spacing:-.4px}
+.hero-foot{margin-top:48px}
+.certification-strip{background:#f5f8f2;border-bottom:1px solid #dce5d6;padding:29px 0}
+.certification-inner{display:flex;align-items:center;gap:48px}
+.certification-inner>a{flex:0 0 270px;background:white;padding:15px 19px;border-radius:4px}
+.certification-inner img{width:100%;height:auto}
+.certification-inner .eyebrow{color:#4a7140;margin-bottom:8px}
+.certification-inner h2{font-size:25px;letter-spacing:-.6px}
+.certification-inner p:last-child{font-size:12px;color:#596453;margin:8px 0 0}
+.contact-pending{max-width:100%}.contact-pending>div{min-width:0;width:100%}
+.contact-direct{display:grid;gap:18px;margin:20px 0}
+.contact-method{display:flex;align-items:center;gap:14px;min-width:0}
+.contact-method svg{width:26px;height:26px;flex-shrink:0;fill:none;stroke:var(--navy);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.contact-method span{min-width:0;display:block}.contact-method small{display:block;font-size:10px;letter-spacing:1.5px;color:#626776;font-weight:700;line-height:1.6;margin-bottom:3px}
+.contact-method b{display:block;font-size:clamp(16px,1.5vw,21px);line-height:1.5;overflow-wrap:anywhere;font-weight:750}
+@media(max-width:800px){.certification-inner{gap:25px}.certification-inner>a{flex-basis:220px}.contact-method{gap:10px}.contact-method b{font-size:16px}.hero-foot{margin-top:45px}}
+@media(max-width:560px){.hero-slogan{font-size:20px;max-width:310px}.hero-foot{margin-top:35px}.hero-inner{padding-top:55px}.certification-inner{flex-direction:column;align-items:flex-start;gap:20px}.certification-inner>a{flex:0 0 auto;width:240px}.certification-inner h2{font-size:25px}.contact-method b{font-size:18px}.contact-method svg{width:25px;height:25px}}
